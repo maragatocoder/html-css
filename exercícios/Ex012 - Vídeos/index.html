@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos internos com HTML5</h1>
+    <p>
+        Os formatos de vídeos mais usados são MP4, M4V, WEBM e OGV.
+        <br>
+        Sempre inserir todos os formatos para rodar no navegador de todos os usúarios.
+        <br>
+        Para inserir vídeos internos vamos usar a tag &lt;video&gt;
+        <br>
+        Dentro da tag vídeo podemos definir o tamanho com a tag widht="..."
+        <br>
+        Podemos colocar uma capa para o vídeo usando a tag poster="..."
+        <br>
+        e também os controles de vídeo inserindo 'control' 'autoplay' e 'loop'.
+
+    </p>
+    <video width="560" poster="mídia/spiderman.png" controls autoplay loop>
+        <source src="mídia/meu-video.mkv" type="video/mp4">
+        <source src="mídia/Meu-Video.webm" type="video/webm">
+        <source src="mídia/meu-video.mp4" type="video/mp4">
+
+    </video>
+
+    <h1>Inserindo vídeos externos</h1>
+
+    <h2>Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TyskcLbCkqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h2>Vímeo</h2>
+    <iframe src="https://player.vimeo.com/video/265811143?h=c041e93ad4" width="560" height="262" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+    
+</body>
+</html>

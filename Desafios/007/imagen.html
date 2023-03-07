@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Usando imagem flexível</h1>
+    <p>
+        Podemos usar uma imagem flexível usando a tag &lt;picture&gt;. Dentro dessa tag podemos usar a tag &lt;source que possui diversas formas.
+    </p>
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 950px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Surfista">
+    </picture>
+    
+</body>
+</html>
