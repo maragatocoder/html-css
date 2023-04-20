@@ -1,0 +1,11 @@
+{
+    "editor.wrappingIndent": "none",
+    "git.confirmEmptyCommits": false,
+    "git.enableSmartCommit": false,
+    "git.confirmNoVerifyCommit": false,
+    "git.confirmSync": false,
+    "git.confirmForcePush": false,
+    "git.showCommitInput": true,
+    "git.verboseCommit": true,
+    "github.gitAuthentication": false
+}
