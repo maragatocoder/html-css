@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+
+</head>
+
+<body>
+    <h1>Meu site principal</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea nobis velit ut minus! Aperiam animi est magni earum quidem aliquam incidunt fuga nemo. A cumque reprehenderit culpa pariatur beatae!
+    </p>
+
+    <iframe src="paginasextras/pagina01.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+        Seu navegador não é compatível com isso.
+    </iframe>
+
+    <!--
+        sandbox: 
+        "sandbox" serve para bloquear todo e qualquer acesso que outros sites que estejam dentro do iframe tentem fazer.
+        "allow-same-origin" significa permitir conteúdo de mesma origem.
+        "allow-forms" vai permitir formulários.
+        "allow-scripts" para executar scripts.
+
+
+        referrerpolicy: "no-referrer" significa que o que está carregado dentro do iframe não vai coletar nenhum tipo de informação do usuário.
+    -->
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nihil aspernatur est repellat enim distinctio dolor voluptate. Libero possimus, odit qui dolorum exercitationem explicabo culpa perspiciatis unde reprehenderit accusantium inventore?
+    </p>
+    
+</body>
+</html>
