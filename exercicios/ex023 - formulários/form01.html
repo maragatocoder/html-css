@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário.</h1>
+    <form action="cadastro.php"  method="get" autocomplete="off">
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+        <!--
+            Para a o formulário funcionar direito é preciso que todo objeto de entrada tenha um NAME. Mas ele é mais útil para o HTML e o PHP.
+
+            Já para linguagem como o JavaScript o ID é mais utilizada.
+
+            LABEL -> faz a ligação do box e da chamada. Dentro da label vamos inserir o valor que colocamos no ID.
+        -->
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+    
+    <!--
+        Para desligar o preenchimento automático da box basta inserir o comando AUTOCOMPLETE="OFF".
+
+        O comando ACTION serve para disparar uma ação ao clicar no botão "Enviar". Nesse comando também vamos definir para qual linguagem esse formulário será enviado.
+
+        MÉTODOS:
+        
+        GET -> Utiizar quando os dados não forem sensíveis. Também nessa opção é possivel que o link da url seja compartilhável. Você só pode enviar 3000 bits, ou seja, 3000 letras.
+
+        POST -> Utilizar quando os dados são sensíveis. Usado também quando existe algum envio de arquivo ou foto no formulário.
+    -->
+</body>
+</html>
